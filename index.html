@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smarter Chatbot Demo</title>
+    <title>HRR Demo</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #fff; /* Changed the background color to white */
             color: #333;
             margin: 0;
             padding: 0;
@@ -15,9 +15,7 @@
         main {
             margin: 50px auto;
             max-width: 800px;
-            background: #fff;
             padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
             text-align: center;
@@ -48,21 +46,27 @@
         stripe-buy-button {
             display: block;
             margin: 20px auto; /* Center the button */
+            text-align: center; /* Ensure it's centered */
         }
     </style>
 </head>
 <body>
     <main>
-        <h1>Welcome to the HRR Chatbot Demo</h1>
+        <h1>HRR Demo</h1>
         
-        <p>Monitor and manage your agent through your dashboard at <a href="https://dashboard.adanac.ai/" target="_blank">dashboard.adanac.ai</a>. Username and password: <strong>Regatta24!</strong></p>
+        <p>Monitor your agent in your dashboard at <a href="https://dashboard.adanac.ai/" target="_blank">dashboard.adanac.ai</a>. Username and password: <strong>Regatta24!</strong></p>
         
         <p>Your agent’s responses are currently limited to this page: <a href="https://www.hrr.co.uk/frequently-asked-questions/" target="_blank">https://www.hrr.co.uk/frequently-asked-questions/</a></p>
+
+        <p>More data can be added to the knowledge base in your dashboard.</p>
         
         <p>If it can’t find an answer, users will be prompted to fill out a form, and their responses will be sent directly to your email for follow-up.</p>
         
         <p>Try asking: <span class="bold">"What is the dress code in Stewards?", "When do tickets come out for 2025?", or "Were any pink hats handed in to lost property?"</span></p>
 
+
+        <br>
+        
         <p>Setting up your AI Agent “Addie” is quick and easy:</p>
         <ol>
             <li>Submit your website to Addie’s knowledge base and specify where to send any questions that Addie can't answer.</li>
@@ -83,13 +87,12 @@
             <li>Latest GPT-4 model</li>
             <li>Option for widget to only appear during non-office hours</li>
         </ul>
-        
-        <p>Add-ons:</p>
-        <ul>
-            <li>Additional agents</li>
-            <li>Custom integrations (Instagram, email…)</li>
-            <li>Raise daily query limit</li>
-        </ul>
+
+        <!-- Read more line -->
+        <p><a href="https://adanac.ai/" target="_blank">Adanac AI</a></p>
+
+        <br>
+        <br>
 
         <!-- Stripe Buy Button -->
         <script async src="https://js.stripe.com/v3/buy-button.js"></script>
